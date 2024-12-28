@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<title>Project Digital Humanity</title>
+
+	<link rel="icon" type="image/x-icon" href="Cheng Shi-1.png" >
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<meta name="author" content="Cheng Shi #23375304">
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" src="homepageUpdate.js"></script>
+
+</head>
+
+<body id="HomePage">
+
+    <!-- navbar -->
+    <div id="navbar_holder">
+    </div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("navbar.html", function(data){
+        $("#navbar_holder").replaceWith(data);
+    });
+    </script>
+    <!-- navbar -->
+
+
+	<section id="content">
+
+		<article id="art_Course">
+			<div>
+				<h2>Course</h2>
+			</div>
+			<dl>
+				
+				<dd><cite>&#128217; Zybook</cite></dd>
+				<dt><a
+						href="https://learn.zybooks.com/zybook/CUNYCSCI355655TeitelmanSummer2022">Zybook:CUNYCSCI355655TeitelmanSummer2022</a>
+				</dt>
+
+				<dd><cite>&#128203;TopHat</cite></dd>
+				<dt><a href="https://app.tophat.com/e/908340/lecture">Tophat:Internet and Web Tech - Summer 2022</a>
+				</dt>
+
+				<dd><cite>&#128194; Google Drive</cite></dd>
+				<dt><a href="https://drive.google.com/drive/folders/11mWopesSWOTVo2_Ya-8AUvvmgnKQD9Wo">Google Drive:
+						QC-CSCI355-2022-Summer</a></dt>
+
+				<dd><cite>&#128214; Text Book</cite></dd>
+				<dt><a href="https://gaia.cs.umass.edu/kurose_ross/eighth.php">GJ. Kurose and K. Ross, Computer
+						Networking: A Top-Down Approach, 8th ed., Pearson, 2020. Free</a></dt>
+
+				<dd><cite>&#128190; W3Schools</cite></dd>
+				<dt><a href="https://www.w3schools.com">w3schools.com</a></dt>
+
+				<dd><cite>GeeksForGeeks</cite></dd>
+				<dt><a href="https://www.geeksforgeeks.org/">www.geeksforgeeks.org</a></dt>
+
+			</dl>
+		</article>
+
+		<article id="art_Browser">
+			<div>
+				<h2>Your Browser</h2>
+			</div>
+			<dl><button type="button" onclick="UpdateBrowserData()">>> &#127744;Click To Update<<</button>
+			</dl>
+			<dl>
+
+				<dd id="Navigator"><cite>Navigator</cite></dd>
+				<dt id="nav_AppName">AppName:</dt>
+				<dt id="nav_product">Product:</dt>
+				<dt id="nav_appVersion">app Version:</dt>
+				<dt id="nav_Useragreenment">User Agreenment:</dt>
+
+				<dd id="Window"><cite>Window</cite></dd>
+				<dt id="win_innerHeight">innerHeight:</dt>
+				<dt id="win_innerWidth">innerWidth:</dt>
+
+				<dd id="Screen"><cite>Screen</cite></dd>
+				<dt id="screen_height">Height:</dt>
+				<dt id="screen_width">Width:</dt>
+				<dt id="screen_availWidth">availWidth:</dt>
+				<dt id="screen_availHeight">availHeight:</dt>
+				<dt id="screen_colorDepth">colorDepth:</dt>
+				<dt id="screen_pixelDepth">pixelDepth:</dt>
+
+				<dd id="Location"><cite>Location</cite></dd>
+				<dt id="location_hostname">Hostname:</dt>
+				<dt id="location_pathname">PathName:</dt>
+				<dt id="location_protocol">Protocol:</dt>
+
+
+				<dd id="Geolocation"><cite>Geolocation</cite></dd>
+				<dt id="geo_latitude">Latitude:</dt>
+				<dt id="geo_longitude">Longitude:</dt>
+
+
+			</dl>
+		</article>
+	</section>
+
+	<div id="copyright">
+		<a href="http://www.cs.qc.cuny.edu">Computer Science Department</a>&nbsp; | &nbsp;
+		<a href="http://www.qc.cuny.edu/Academics/Degrees/DMNS/">School of Mathematics and Natural Sciences</a> &nbsp; | &nbsp;
+		<a href="http://www.qc.cuny.edu">Queens College</a> &nbsp;| &nbsp;
+		<a href="http://www.cuny.edu">City University of New York</a>
+		<br>
+		<br>
+		Copyright 2022 © Cheng Shi | Department of Computer Science, CUNY Queens College. 
+		<a href="contact.html">Contact Information</a>
+	</div>
+
+</body>
+
+</html>
